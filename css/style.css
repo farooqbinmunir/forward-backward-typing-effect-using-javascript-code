@@ -1,0 +1,61 @@
+body{
+    background: chocolate;
+    font-family: verdana;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --fbm-border-standard: 1px solid rgba(0, 0, 0, .2);
+    --fbm-padding-standard: 10px 20px;
+    --fbm-color-text: crimson;
+    --fbm-color-primary: goldenrod;
+}
+#fbm_logo{
+    width: 200px;
+    height: 150px;
+}
+.fbm_logo_wrapper{
+    height: inherit;
+    width: inherit;
+}
+#fbm_logo img#fbm_logo_img{
+    display: block;
+    width: inherit;
+    height: inherit;
+}
+.fbm_hero_title {
+    margin-bottom: 20px;
+}
+.fbm_parent{
+    position: relative;
+}
+.fbm_center{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#fbm_content {
+    background: var(--fbm-color-primary);
+    padding: 40px 60px;
+}
+mark.fbm_mark{
+    padding: 20px;
+}
+
+/* Start Custom Styles */
+.fbm_typing_effect_text_item_wrap {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+.fbm_typing_effect_text_item{
+    display: none;
+}
+.fbm_show{
+    display: block;
+}
+
